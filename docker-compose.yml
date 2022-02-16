@@ -8,7 +8,7 @@ services:
       - ./:/app
     restart: always
     environment:
-      TGBOT_TOKEN: "${TGBOT_TOKEN}"
+      TGBOT_TOKEN: "${TGBOT_TOKEN}"5174579630:AAEqCAh44zqb05Ebbb7YGRHynbDMlxLfM0o
       DB_PWD: "${DB_PWD}"
 
   db:
